@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Welcome from './components/Welcome';
 import Support from './components/Support';
+import ListCast from './components/ListCast';
 
 function App() {
   const name = 'StarGazers'
@@ -15,6 +16,7 @@ function App() {
           <Support />
         </hgroup>
       </article>
+      <ListCast />
     </div>
   )
 }
